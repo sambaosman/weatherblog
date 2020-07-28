@@ -3,7 +3,7 @@ let d = new Date();
 let newDate = d.getMonth()+'.'+ d.getDate()+'.'+ d.getFullYear();
 
 const baseURL='https://api.openweathermap.org/data/2.5/weather?zip=';
-const apiKey='&appid=7b1ff229aa9f55a30ed5549371cf5aff';
+const apiKey='&appid=7b1ff229aa9f55a30ed5549371cf5aff&units=imperial';
 
 document.getElementById('generate').addEventListener('click', performAction);
 
